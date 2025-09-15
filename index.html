@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ride & Sail Finance</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1a1a1a;
+      background-color: #ffffff;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1502877338535-766e1452684a') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.25rem;
+    }
+    .cta-buttons a {
+      background-color: #ff6600;
+      color: white;
+      padding: 12px 24px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .services, .how-it-works, .why-choose {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f7f9fc;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      color: #004080;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a {
+      color: #ff6600;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ride Today. Sail Tomorrow.</h1>
+    <p>Finance made simple — tailored loans for motorbikes and marine vehicles.</p>
+    <div class="cta-buttons">
+      <a href="#apply">Start Your Journey</a>
+      <a href="#apply">Get Pre-Approved</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Why Choose Us</h2>
+    <div class="why-choose">
+      <div class="card"><h3>Specialist Expertise</h3><p>We focus on motorbike & marine finance, so we know what works.</p></div>
+      <div class="card"><h3>Fast Approvals</h3><p>Minimal paperwork, quick turnaround, and stress-free process.</p></div>
+      <div class="card"><h3>Flexible Options</h3><p>Repayments structured around your lifestyle, not the other way around.</p></div>
+      <div class="card"><h3>Trusted Partners</h3><p>We compare leading lenders to secure the right deal for you.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card"><h3>🏍️ Motorbike Finance</h3><p>Loans for new or used bikes, flexible repayment terms, and add-on protection options.</p></div>
+      <div class="card"><h3>🌊 Marine Finance</h3><p>Loans for boats, jet skis, trailers, and repowers — designed for your marine lifestyle.</p></div>
+      <div class="card"><h3>🔍 Loan Comparison</h3><p>We do the hard work — comparing lenders so you don’t have to.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="how-it-works">
+      <div class="card"><h3>1. Apply Online</h3><p>Quick and simple application form.</p></div>
+      <div class="card"><h3>2. Get Approved</h3><p>We secure the right finance for you.</p></div>
+      <div class="card"><h3>3. Ride or Sail Away</h3><p>Collect your motorbike or marine vehicle and enjoy the lifestyle.</p></div>
+    </div>
+  </section>
+
+  <section id="apply">
+    <h2>Apply Now</h2>
+    <form>
+      <label>Name:<br><input type="text" name="name" required></label><br><br>
+      <label>Email:<br><input type="email" name="email" required></label><br><br>
+      <label>Phone:<br><input type="tel" name="phone" required></label><br><br>
+      <label>Loan Amount:<br><input type="number" name="amount" required></label><br><br>
+      <label>Vehicle Type:<br>
+        <select name="vehicle">
+          <option>Motorbike</option>
+          <option>Marine</option>
+        </select>
+      </label><br><br>
+      <button type="submit" style="background:#ff6600;color:white;padding:10px 20px;border:none;border-radius:6px;font-weight:bold;">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <h2>From Coast to Road — Finance Your Freedom Today.</h2>
+    <p>Contact us: <a href="mailto:info@yourfinancebroker.com">info@yourfinancebroker.com</a></p>
+  </footer>
+</body>
+</html>
